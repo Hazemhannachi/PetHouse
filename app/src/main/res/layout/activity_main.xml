@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="307dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cat" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ajouter"
+        android:layout_below="@id/cat"
+        android:layout_centerHorizontal="true"
+        android:text="Ajouter"/>
+
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="318dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/ajouter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/image4" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/consulter"
+        android:layout_below="@id/image4"
+        android:layout_centerHorizontal="true"
+        android:text="Consulter"/>
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="318dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/consulter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/find" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trouver"
+        android:layout_below="@id/image3"
+        android:layout_centerHorizontal="true"
+        android:text="Trouver_Nous"/>
+
+
+
+</RelativeLayout>

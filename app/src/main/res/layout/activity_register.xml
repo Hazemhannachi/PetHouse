@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+<ImageView
+    android:id="@+id/image1"
+    android:layout_width="168dp"
+    android:layout_height="88dp"
+    android:src="@drawable/image2"
+    android:layout_centerHorizontal="true"
+    />
+
+<ImageView
+    android:layout_marginTop="20dp"
+
+    android:layout_below="@+id/image1"
+    android:id="@+id/reg"
+    android:layout_width="match_parent"
+    android:layout_height="87dp"
+    android:src="@drawable/reg"
+    />
+
+
+
+<EditText
+    android:layout_marginTop="20dp"
+    android:hint="Saisie votre Nom"
+    android:layout_below="@+id/reg"
+    android:id="@+id/nom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Saisie votre Prenom"
+        android:layout_below="@+id/nom"
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Saisie votre Login"
+        android:layout_below="@+id/prenom"
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Saisie votre Adresse"
+        android:layout_below="@+id/login"
+        android:id="@+id/adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<EditText
+    android:layout_marginTop="20dp"
+    android:hint="Saisie votre Mot de passe"
+    android:layout_below="@+id/adresse"
+    android:id="@+id/mdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    />
+
+<Button
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/mdp"
+    android:id="@+id/btnRegister"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    />
+
+
+
+
+
+</RelativeLayout>
